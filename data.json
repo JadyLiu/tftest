@@ -1,0 +1,11 @@
+{
+    "nonprod": {
+        "//": "This is vpc ids for all nonprod accounts",
+        "vpc": ["vpc-1", "tgw-a2"],
+        "//": "This is cidrs for all nonprod accounts and it matches the vpc ids above",
+        "cidr": ["cidr1", "cidr2"]
+    },
+    "sharedservice": {
+        "vpc": "vpc-id"
+    }
+}
