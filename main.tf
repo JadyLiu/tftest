@@ -4,9 +4,9 @@ locals {
 }
 
 output "ss_vpc" {
-  value = local.json_data.sharedservice.vpcs
+  value = local.json_data.sharedservice.vpc
 }
 
 output "nonprod_" {
-  value = "${}"
+  value = local.json_data.nonprod.vpc
 }

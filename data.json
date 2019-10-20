@@ -1,7 +1,7 @@
 {
     "nonprod": {
         "//": "This is vpc ids for all nonprod accounts",
-        "vpc": ["vpc-1", "tgw-a2"],
+        "vpc": ["vpc1", "vpc2","vpc3"],
         "//": "This is cidrs for all nonprod accounts and it matches the vpc ids above",
         "cidr": ["cidr1", "cidr2"]
     },
